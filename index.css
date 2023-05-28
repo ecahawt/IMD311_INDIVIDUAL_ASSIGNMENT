@@ -1,0 +1,238 @@
+body{
+    background: #FFDACC;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    background-color: #FAFCFF;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    color: #8C6F7C;
+    cursor:pointer;
+}
+
+#welcome{
+    justify-content: center;
+    flex: 1;
+    padding: 6em 7em 6em 7em;
+    background-color: #FAFCFF;
+
+}
+
+.welcome-header{
+    font-size: 2.5em;
+    color: #8C6F7C;
+    font-family: 'Sacramento', cursive;
+
+}
+
+.welcome-paragraph{
+    color: #8C6F7C;
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+}
+
+#social-media{
+    flex:1;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media-icon{
+    display: inline-block;
+}
+
+.social-media-icon > a > img{
+    width: 3em;
+    margin: 1em 1em 1em 1em;
+}
+
+#skill{
+    background-color: #E7F3FF;
+    padding: 4em 0 4em 0;
+}
+
+.skill-section{
+    justify-content: center;
+    display: flex;
+}
+
+.skill-heading{
+    font-size: 2.5em;
+    color: #000000;
+    font-family: 'Sacramento', cursive;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-heading-icon > img{
+    width: 1em;
+}
+
+.skill-group{
+    display: inline-block;
+}
+
+.skill-group-item{
+    align-items: center;
+    display: flex;
+    margin: 1em 0 1em 0
+}
+
+.skill-group-item-name{
+    display: inline-block;
+    margin-right: 1em;
+    width: 15em;
+    color: #8C6F7C;
+}
+
+.skill-group-item-group{
+    display: inline-block;
+    margin-right: 3em;
+}
+
+.skill-group-item-star{
+    display: inline-block;
+}
+
+.skill-group-item-star > img {
+    width: 1.5em;
+}
+
+#work{
+    background-color: #FAFCFF;
+    padding: 4em 4em 4em 4em;
+}
+
+.work-header-section > img{
+    width: 8em;
+    height: 2em;
+    right: -35px;
+    top: -20px;
+    position: relative;
+}
+
+.work-header-section {
+    display: flex;
+    justify-content: center;
+}
+
+.work-header {
+    font-size: 2.5em;
+    color: #000000;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.work-company {
+    width: 30em;
+    background: #FFDACC;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 0.5em;
+}
+
+.work-company-right {
+    width: 30em;
+    background: #FFDACC;
+    padding: 2em;
+    margin-left: auto;
+    border-radius: 0.5em;
+}
+
+.work-company-name {
+    font-weight: bold;
+    font-size: 1em;
+    color: #8C6F7C;
+}
+
+.work-company-time {
+    font-weight: normal;
+    color: #8C6F7C;
+    font-size: 0.9em;
+}
+
+.work-company-description {
+    margin-top: 1.5em;
+    color: #8C6F7C;
+}
+
+#education-body{
+    background-color: #FAFCFF;
+}
+
+#education{
+    justify-content: center;
+    flex: 1;
+    padding: 6em 7em 6em 7em;
+    background-color: #FAFCFF;
+    height: 100vh;
+}
+
+.education-header{
+    font-size: 2.5em;
+    color: #000000;
+    font-family: 'Sacramento', cursive;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+.education-title {
+    font-weight: bold;
+    font-size: 1em;
+    color: #8C6F7C;
+}
+
+.education-year {
+    font-weight: normal;
+    color: #8C6F7C;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.education-description {
+    font-weight: normal;
+    color: #8C6F7C;
+    font-size: 0.9em;
+    margin-bottom: 5em;
+}
+
+.nav-item > a {
+    text-decoration:none ;
+    color:  #8C6F7C;
+}
+
+.education-photo{
+    width: 186px;
+    position: absolute;
+    right: 28rem;
+    bottom: 3rem;
+    transform: rotate(-12deg);
+}
+
+.education-video{
+    width: 186px;
+    position: absolute;
+    right: 8rem;
+    bottom: 18rem;
+    transform: rotate(12deg);
+}
